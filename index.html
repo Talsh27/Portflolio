@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tal Shkuri's Portfolio</title>
+    <link rel="stylesheet" href="css/master.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+    <script type="text/javascript" src="js/Caladioscope.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.js" type="text/javascript"></script>
+    <script>
+  		var dashSVG = document.getElementById('dashSVG');
+  		var animItem1 = bodymovin.loadAnimation({
+  			wrapper: dashSVG,
+  			animType: 'svg',
+  			loop: true,
+  			autoplay: true,
+  			path: 'Animation.json'
+  		});
+  	</script>
+  </head>
+  <body>
+    <div class="wrapper">
+    <div id="header">
+      <h3>Talsh Shenkar Portfolio</h3>
+      <div id="dashSVG"></div>
+      <div class="text-box">
+        <h1>First Year, First Term</h1>
+        <p>Chosen works</p>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper work-wrapper graphic">
+    <div class="graphic-sec">
+      <div class="work-headline-box">
+        <h2>Graphic Design</h2>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper work-wrapper photography">
+    <div class="photography-sec">
+      <div class="work-headline-box">
+        <h2>photography</h2>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper work-wrapper code">
+    <div id="canvas-conatainer"></div>
+    <div class="code-sec">
+    <div class="work-headline-box">
+        <h2>Code</h2>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper work-wrapper typo">
+    <div class="typo-sec">
+      <div class="work-headline-box">
+        <h2>Typography</h2>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper work-wrapper interactive">
+    <div class="interactive-sec">
+      <div class="work-headline-box">
+        <h2>Interactive</h2>
+      </div>
+    </div>
+  </div>
+    <div class="footer wrapper">
+      <a class="back2top" href="#">
+          Back to Top </a>
+    </div>
+  </body>
+</html>
